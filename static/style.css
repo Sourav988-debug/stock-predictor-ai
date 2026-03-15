@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+}
+
+.header {
+    background: #1f4037;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+}
+
+.controls input,
+.controls select {
+    padding: 10px;
+    width: 200px;
+}
+
+.controls button {
+    background: #1f4037;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.result {
+    background: #dff6ff;
+    padding: 15px;
+    margin: 10px auto;
+    width: 70%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.chart-container {
+    width: 90%;
+    margin: auto;
+}
